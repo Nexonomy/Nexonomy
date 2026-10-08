@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="330" viewBox="0 0 1280 330" role="img" aria-labelledby="title desc">
+  <title id="title">Playable ideas, built with code</title>
+  <desc id="desc">Minimal navy and mint banner for game development and software engineering.</desc>
+  <rect width="1280" height="330" rx="20" fill="#111a32"/>
+  <path d="M44 42H1236M44 288H1236" stroke="#29344d"/>
+  <path d="M44 42H148" stroke="#5ae0ce" stroke-width="3"/>
+  <g font-family="Arial, Helvetica, sans-serif">
+    <text x="56" y="87" font-size="13" letter-spacing="4" fill="#5ae0ce">GAME DEVELOPMENT / SOFTWARE ENGINEERING</text>
+    <text x="52" y="160" font-size="58" font-weight="700" letter-spacing="-2" fill="#f4f5fa">Playable ideas.</text>
+    <text x="52" y="222" font-size="58" font-weight="700" letter-spacing="-2" fill="#aab6ce">Built with code.</text>
+    <text x="56" y="266" font-size="13" letter-spacing="2" fill="#7d8da8">UNITY  ·  MULTIPLAYER  ·  AI SYSTEMS  ·  XR</text>
+  </g>
+  <g fill="none" stroke-linejoin="round" stroke-width="2">
+    <path d="M905 103L1011 50L1117 103L1011 156Z" fill="#183237" stroke="#5ae0ce"/>
+    <path d="M905 103V224L1011 277L1117 224V103M1011 156V277" stroke="#657893"/>
+    <path d="M934 155L1011 116L1088 155L1011 194Z" stroke="#384e66"/>
+    <path d="M934 189L1011 150L1088 189L1011 228Z" stroke="#384e66"/>
+  </g>
+  <circle cx="1011" cy="156" r="6" fill="#ff4979"/>
+  <circle cx="1117" cy="103" r="4" fill="#eec96d"/>
+</svg>
