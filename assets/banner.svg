@@ -1,6 +1,15 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1280" height="330" viewBox="0 0 1280 330" role="img" aria-labelledby="title desc">
   <title id="title">Playable ideas, built with code</title>
   <desc id="desc">Minimal navy and mint banner for game development and software engineering.</desc>
+  <style>
+    .world { animation:float 6s ease-in-out infinite; }
+    .signal { stroke-dasharray:18 340; animation:trace 8s linear infinite; }
+    .spark { animation:pulse 3s ease-in-out infinite; }
+    @keyframes float { 0%,100% { transform:translateY(0) } 50% { transform:translateY(-12px) } }
+    @keyframes trace { to { stroke-dashoffset:-716 } }
+    @keyframes pulse { 0%,100% { opacity:.35 } 50% { opacity:1 } }
+    @media (prefers-reduced-motion:reduce) { .world,.signal,.spark { animation:none } }
+  </style>
   <rect width="1280" height="330" rx="20" fill="#111a32"/>
   <path d="M44 42H1236M44 288H1236" stroke="#29344d"/>
   <path d="M44 42H148" stroke="#5ae0ce" stroke-width="3"/>
@@ -10,12 +19,16 @@
     <text x="52" y="222" font-size="58" font-weight="700" letter-spacing="-2" fill="#aab6ce">Built with code.</text>
     <text x="56" y="266" font-size="13" letter-spacing="2" fill="#7d8da8">UNITY  ·  MULTIPLAYER  ·  AI SYSTEMS  ·  XR</text>
   </g>
+  <g class="world">
+  <circle cx="1011" cy="163" r="125" fill="#5ae0ce" opacity=".025"/>
   <g fill="none" stroke-linejoin="round" stroke-width="2">
     <path d="M905 103L1011 50L1117 103L1011 156Z" fill="#183237" stroke="#5ae0ce"/>
     <path d="M905 103V224L1011 277L1117 224V103M1011 156V277" stroke="#657893"/>
     <path d="M934 155L1011 116L1088 155L1011 194Z" stroke="#384e66"/>
     <path d="M934 189L1011 150L1088 189L1011 228Z" stroke="#384e66"/>
   </g>
+  <path class="signal" d="M905 103L1011 50L1117 103V224L1011 277L905 224Z" fill="none" stroke="#5ae0ce" stroke-width="4" stroke-linejoin="round"/>
   <circle cx="1011" cy="156" r="6" fill="#ff4979"/>
-  <circle cx="1117" cy="103" r="4" fill="#eec96d"/>
+  <circle class="spark" cx="1117" cy="103" r="5" fill="#eec96d"/>
+  </g>
 </svg>
