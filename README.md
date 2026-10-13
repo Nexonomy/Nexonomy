@@ -15,12 +15,12 @@ Associate Software Engineer at **MangoMango Games**, building Unity gameplay, mu
 
 ### Toolkit
 
-**Gameplay** — Unity, C#, URP, NavMesh, DOTween  
-**Multiplayer & mobile** — Photon Fusion, Firebase, React Native, TypeScript  
-**XR & AI** — AR Foundation, XR Interaction Toolkit, Python, LLM integration
+**Gameplay** - Unity, C#, URP, NavMesh, DOTween  
+**Multiplayer & mobile** - Photon Fusion, Firebase, React Native, TypeScript  
+**XR & AI** - AR Foundation, XR Interaction Toolkit, Python, LLM integration
 
 ### Community
 
-Mentor at **GDG on Campus — UMT**; previously the chapter's founding Game Development Lead. Computer Science graduate from UMT Lahore.
+Mentor at **GDG on Campus - UMT**; previously the chapter's founding Game Development Lead. Computer Science graduate from UMT Lahore.
 
 Open to game development and software collaborations. [See my work →](https://ahsanhere.me)
